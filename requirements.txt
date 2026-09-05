@@ -1,0 +1,24 @@
+# ==========================================
+# 1Fi Marketplace - Project Requirements
+# ==========================================
+
+# Runtime & Environment
+node >= 18.0.0 (tested on v24.11.1)
+npm >= 9.0.0 (tested on v11.8.0)
+
+# Core Frontend Dependencies (Installed via npm install)
+react == ^19.0.0
+react-dom == ^19.0.0
+lucide-react == ^1.16.0
+canvas-confetti == ^1.9.4
+
+# Development & Build Tooling
+vite == ^6.0.0
+typescript == ~5.7.2
+@types/react == ^19.0.0
+@types/react-dom == ^19.0.0
+@types/canvas-confetti == ^1.9.0
+@vitejs/plugin-react == ^4.3.4
+
+# Note: In Node.js / React projects, dependencies are managed via package.json.
+# Run 'npm install' to install all dependencies automatically.
