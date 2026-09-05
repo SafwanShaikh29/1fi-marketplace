@@ -119,57 +119,6 @@ Marketplace Project/
 │           ├── ProductDetailModal.tsx# Variant configuration & spec highlights
 │           ├── EmiPlanSelector.tsx   # Interactive tenure cards & compounding visualizer
 │           └── CheckoutModal.tsx     # Multi-step pledge authorization & celebration
-```
-
----
-
-## 📤 Files to Upload to Your GitHub Repository
-
-When pushing this project to GitHub, **never upload `node_modules` or build output (`dist`)**. They are automatically ignored by `.gitignore`.
-
-### ✅ Files & Folders TO Upload:
-- `src/` (All source code: components, context, services, styles, types, data)
-- `public/` (Public static assets)
-- `index.html` (Main HTML template)
-- `package.json` (Project dependencies and scripts)
-- `package-lock.json` (Exact dependency lockfile)
-- `tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json` (TypeScript configs)
-- `vite.config.ts` (Vite build config)
-- `.gitignore` (Git ignore rules)
-- `README.md` (Project documentation)
-- `requirements.txt` (Environment requirements reference)
-
-### ❌ Files & Folders NOT to Upload (Ignored automatically):
-- `node_modules/` (Heavy dependencies installed via `npm install`)
-- `dist/` (Generated production build artifacts)
-- `.vite/` (Vite temporary cache)
-- `*.log` (Debug log files)
-
----
-
-## 💻 Step-by-Step Commands to Push to GitHub
-
-Run the following commands in your project terminal:
-
-```bash
-# 1. Initialize git repository (if not already done)
-git init
-
-# 2. Add all project files
-git add .
-
-# 3. Check status to confirm only source files are staged (node_modules should NOT appear)
-git status
-
-# 4. Commit the files
-git commit -m "feat: complete 1Fi Marketplace feature on Shop page with dynamic EMI & pledge flow"
-
-# 5. Set branch to main
-git branch -M main
-
-# 6. Add your GitHub repository remote (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-
 # 7. Push to GitHub
 git push -u origin main
 ```
